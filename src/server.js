@@ -16,6 +16,9 @@ const app = express();
         app.get('/', (req, res) => {
             res.send('Welcome to the Express server');
         });
+        app.get('/Dhruvesh', (req, res) => {
+            res.send('Welcome to Dhruvesh');
+        });
         // Start the Express server
         const PORT = 5000; // Hardcoded port
         app.listen(PORT, () => {
