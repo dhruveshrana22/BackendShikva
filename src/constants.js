@@ -1,3 +1,7 @@
 const DB_Name = "Vypar";
 
-module.exports = { DB_Name };
+const JWT_SECRET = '8511587821Dhru96@'
+
+
+
+module.exports = { DB_Name, JWT_SECRET };
